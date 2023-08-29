@@ -1,0 +1,5 @@
+A=input()
+B=input()
+print(B)
+print("#"*3)
+print(A)

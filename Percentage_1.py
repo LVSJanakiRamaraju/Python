@@ -1,0 +1,5 @@
+P=input()
+N=input()
+P=int(P)
+N=int(N)
+print(N==(P/100)*500)

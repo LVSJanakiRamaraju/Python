@@ -1,0 +1,7 @@
+A=input()
+B=input()
+A=int(A)
+B=int(B)
+is_less=(A<20) or (B<20)
+is_greater=(A>30) or (B>30)
+print(is_less and is_greater)

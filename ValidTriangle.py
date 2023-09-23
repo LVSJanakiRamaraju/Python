@@ -1,0 +1,8 @@
+A=input()
+B=input()
+C=input()
+A=int(A)
+B=int(B)
+C=int(C)
+is_triangle=(A+B > C) and (A+C > B) and (B+C > A)
+print(is_triangle)

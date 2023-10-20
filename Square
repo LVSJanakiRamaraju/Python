@@ -1,0 +1,5 @@
+N=int(input())
+B=1
+while B<=N:
+    print(str(B)*N)
+    B+=1

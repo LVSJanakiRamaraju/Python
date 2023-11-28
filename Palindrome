@@ -1,0 +1,12 @@
+S=input()
+S=S.replace(" ","")
+S=S.replace("'","")
+A=1
+for i in range(len(S)//2):
+    if S[i].lower()!=S[len(S)-1-i].lower():
+        A=0
+        break
+if A:
+    print(True)
+else:
+    print(False)
